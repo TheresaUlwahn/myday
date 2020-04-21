@@ -1,11 +1,13 @@
 nav.nav.nav--animate {
   background-color: #0f211d;
   cursor: pointer;
+  padding-bottom: 50px; 
 }
 
 .nav-links__group.right , 
 .nav-links__group.left{
   color: #80f8e6;
+ 
 }
 
 .navMenu a {

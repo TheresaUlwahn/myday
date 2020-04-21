@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom' 
 import Navbar, { ThemeProps } from '@ovie/react-navbar'
 import './navigationbar.css'
 
@@ -7,8 +7,6 @@ const navTheme: ThemeProps = {
   mainColor: 'darkslategrey',
   menuBgColor: 'darkslategrey'
 }
-
-// const navBrand = <a className="brand" href="#null">Base Corp.</a>
 
 const navBrand = <a className="brand" href="#null"><p>My Day</p></a> 
 
@@ -23,7 +21,6 @@ const handleLogOut = () => {
   console.log("Hej!")
   window.localStorage.removeItem("accessToken")
   window.localStorage.removeItem("userId")
-
 }
 
 const rightLinks = (
@@ -32,7 +29,6 @@ const rightLinks = (
       <a href="/newReflection/">New Day</a>
     </Link>
     <a onClick={handleLogOut} href="/">Log Out</a>
-    {/* <a href="#null">Your Reflections</a> */}
   </>
 )
 
