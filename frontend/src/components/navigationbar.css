@@ -13,13 +13,11 @@ nav.nav.nav--animate {
 }
 
 .burger {
-  padding-bottom: 40px; 
+  padding-bottom: 50px; 
 }
 
 .navMenu p {
-  /* font-family: 'Rock Salt', cursive; */
   font-family: 'Great Vibes', cursive;
-  /* font-family: 'Parisienne', cursive; */
   font-size: 30px;
   color: #80f8e6;
   padding: 0;
@@ -42,6 +40,7 @@ nav.nav.nav--animate {
   .nav-links__group.left{
     display: block;
     padding-bottom: 25px;
+    margin-left: 183px;
   }
  .nav {
    box-shadow: none;

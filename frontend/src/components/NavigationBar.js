@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Navbar, { ThemeProps } from '@ovie/react-navbar'
 import './navigationbar.css'
 
@@ -27,10 +28,11 @@ const handleLogOut = () => {
 
 const rightLinks = (
   <>
+    <Link to={`/newReflection/`}>
+      <a href="/newReflection/">New Day</a>
+    </Link>
     <a onClick={handleLogOut} href="/">Log Out</a>
-    {/* <a href="#null">Sign Up</a> */}
-    <a href="/newReflection/">New Day</a>
-    <a href="#null">Your Reflections</a>
+    {/* <a href="#null">Your Reflections</a> */}
   </>
 )
 

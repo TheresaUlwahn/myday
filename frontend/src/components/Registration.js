@@ -28,7 +28,7 @@ export const Registration = () => {
     })
       .then(res => {
         if (res.ok) {
-          setSuccessMsg("User created - we'll send you back to log-in now!") 
+          setSuccessMsg("Welcome as a member - now sending you to log in") 
           setErrorMsg(false) 
           return res.json()
         }
