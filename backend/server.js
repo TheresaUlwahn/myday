@@ -26,7 +26,7 @@ const User = mongoose.model('User', {
   },
   repeat: {
     type: String,
-    required: true
+    required: false
   },
   accessToken: {
     type: String,
