@@ -11,9 +11,9 @@ export const MyDayDetails = props => {
 
   useEffect(() => {
     // fetch(`http://localhost:9000/reflections/${reflectionId}`)
-    fetch(`https://authorisation-app.herokuapp.com/reflections/${reflectionId}`)
+    // fetch(`https://authorisation-app.herokuapp.com/reflections/${reflectionId}`)
       
-    // fetch(`https://myday-reflection.herokuapp.com/reflections/${reflectionId}`)
+    fetch(`https://myday-reflection.herokuapp.com/reflections/${reflectionId}`)
       .then(res => res.json())
       .then(json => {
         setReflection(json)
