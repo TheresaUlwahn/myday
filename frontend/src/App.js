@@ -7,8 +7,8 @@ import { MyDayDetails } from './components/MyDayDetails'
 import { Login } from './components/Login'
 import { Registration } from './components/Registration'
 
-const url = 'https://authorisation-app.herokuapp.com/'
-// const url = 'https://myday-reflection.herokuapp.com/'
+// const url = 'https://authorisation-app.herokuapp.com/'
+const url = 'https://myday-reflection.herokuapp.com/'
 // const url = "http://localhost:9000/"
 
 export const App = () => {
