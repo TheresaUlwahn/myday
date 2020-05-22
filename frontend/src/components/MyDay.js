@@ -21,13 +21,13 @@ export const MyDay = () => {
       .then(json => setReflections(json))
   }, [])
   
-  useEffect(() => {
-    fetch(url, { headers: { Authorization: apiKey } })
-      .then(res => res.json())
-      .then(json => {
-        setPhotos(json.photos) 
-      })
-  }, [])
+  // useEffect(() => {
+  //   fetch(url, { headers: { Authorization: apiKey } })
+  //     .then(res => res.json())
+  //     .then(json => {
+  //       setPhotos(json.photos) 
+  //     })
+  // }, [])
 
   let combo = []
   reflections.forEach((reflection, index) => {
@@ -37,6 +37,14 @@ export const MyDay = () => {
     })
   })
   console.log(combo)
+
+  useEffect(() => {
+    fetch(url, { headers: { Authorization: apiKey } })
+      .then(res => res.json())
+      .then(json => {
+        setPhotos(json.photos) 
+      })
+  }, [])
  
   return (
     <div className="myDayContainer">   
