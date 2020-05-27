@@ -5,9 +5,7 @@ We believe that it's essential for our wellbeing to reflect on a daily basis, so
 
 ## View it live
 
-https://mydayfinalproject.netlify.com/
-
-https://myday-reflection.herokuapp.com/
+Work in progress so not able to show it live yet
 
 ## Tools and techniques
 
