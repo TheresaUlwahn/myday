@@ -8,7 +8,7 @@ import moment from 'moment'
 const apiKey = `563492ad6f917000010000016674d16c530e444482c459f1837b2a47`
 const url = "https://api.pexels.com/v1/search?query=example+raindrop&per_page=85&page=5"
 // const reflectionsUrl = 'https://authorisation-app.herokuapp.com/'
-const reflectionsUrl ='https://myday-reflection.herokuapp.com/'
+const reflectionsUrl ='http://myday-reflection.herokuapp.com/'
 // const reflectionsUrl = "http://localhost:9000/"
 
 export const MyDay = () => {
