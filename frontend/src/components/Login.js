@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 import './login.css'
 // import { Registration } from './Registration'
 
-// const URL = 'https://myday-reflection.herokuapp.com/sessions'
-const URL = 'https://authorisation-app.herokuapp.com/sessions'
+const URL = 'https://myday-reflection.herokuapp.com/sessions'
+// const URL = 'https://authorisation-app.herokuapp.com/sessions'
 // const URL = 'https://project20-auth.herokuapp.com/sessions'
 // const URL = 'http://localhost:9000/sessions'
 
@@ -14,7 +14,7 @@ export const Login = () => {
   const [password, setPassword] = useState('')
   const [errorMsg, setErrorMsg] = useState(null)
   const history = useHistory()
-  // const [submit, setSubmit] = useState(false)
+  const [submit, setSubmit] = useState(false)
 
   // To log in an exicting member
   const handleFormSubmit = event => {
