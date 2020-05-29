@@ -6,7 +6,7 @@ import crypto from 'crypto'
 import bcrypt from 'bcrypt-nodejs'
 
 // const mongoUrl = process.env.MONGO_URL || 'mongodb://localhost/myday'
-const mongoUrl = process.env.MONGO_URI || 'mongodb://localhost/myday'
+const mongoUrl = process.env.MONGO_URL || 'mongodb://localhost/myday'
 mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 mongoose.Promise = Promise
 
