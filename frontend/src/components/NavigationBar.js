@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom' 
-import Navbar, { ThemeProps } from '@ovie/react-navbar'
+import Navbar from '@ovie/react-navbar'
 import './navigationbar.css'
 
 const navTheme  = {
