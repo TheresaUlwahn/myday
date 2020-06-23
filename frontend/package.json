@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@ovie/react-navbar": "^2.3.2",
+
     "@trendmicro/react-sidenav": "^0.5.0",
     "acorn": "^7.2.0",
     "acron": "^1.0.5",
