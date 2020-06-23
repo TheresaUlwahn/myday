@@ -3,9 +3,9 @@
 Most of us have some kind of social media app where we spend time, like Facebook or Instagram and they are sometimes perceived as being superficial. We see benefits in connecting with friends and family and sharing our everyday life but there is seldom or maybe more closer to the truth, never any space for honest reflections. 
 We believe that it's essential for our wellbeing to reflect on a daily basis, so we created a web application that offers a space for inner reflection. We call it My Day and it is our version of a digital journal.
 
-## View it live
+## Have a look  
 
-https://photos.app.goo.gl/L3VpLGppM2bNW3SYA
+https://photos.app.goo.gl/AgWVCL5WpRdtRYJf8
 
 ## Tools and techniques
 
