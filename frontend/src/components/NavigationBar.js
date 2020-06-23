@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Navbar, { ThemeProps } from '@ovie/react-navbar'
 import './navigationbar.css'
 
-const navTheme: ThemeProps = {
+const navTheme  = {
   mainColor: 'darkslategrey',
   menuBgColor: 'darkslategrey'
 }
