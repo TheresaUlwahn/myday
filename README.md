@@ -5,7 +5,7 @@ We believe that it's essential for our wellbeing to reflect on a daily basis, so
 
 ## View it live
 
-Work in progress so not able to show it live yet
+https://photos.app.goo.gl/L3VpLGppM2bNW3SYA
 
 ## Tools and techniques
 
