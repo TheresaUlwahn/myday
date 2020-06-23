@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 import './login.css'
 // import { Registration } from './Registration'
 
-const URL = 'https://myday-reflection.herokuapp.com/sessions'
-// const URL = 'https://authorisation-app.herokuapp.com/sessions'
+// const URL = 'https://myday-reflection.herokuapp.com/sessions'
+const URL = 'https://authorisation-app.herokuapp.com/sessions'
 // const URL = 'https://project20-auth.herokuapp.com/sessions'
 // const URL = 'http://localhost:9000/sessions'
 
