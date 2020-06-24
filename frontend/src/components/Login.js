@@ -25,12 +25,13 @@ export const Login = () => {
       body: JSON.stringify({ email, password }),
       headers: { 'Content-Type': 'application/json' }
     })
-      .then((res) => {
+      .then(async (res) => {
         if (res.ok) {
           return res.json()
         }
         else {
-          return res.text().then((json) => { throw new Error(json) })
+          const json = await res.text()
+          throw new Error(json)
         }
       })
       .then((user) => {
