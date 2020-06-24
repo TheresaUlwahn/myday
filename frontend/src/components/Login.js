@@ -20,7 +20,7 @@ export const Login = () => {
   const handleFormSubmit = event => {
     event.preventDefault()
 
-    fetch(URL, { mode: "no-cors" }, {
+    fetch(URL, {
       method: 'POST',
       body: JSON.stringify({ email, password }),
       headers: { 'Content-Type': 'application/json' }
